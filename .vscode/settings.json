@@ -1,0 +1,27 @@
+{
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.eol": "\n",
+
+  "editor.wordWrap": "on",
+  "editor.rulers": [88],
+
+  "[markdown]": {
+    "editor.quickSuggestions": {
+      "other": false,
+      "comments": false,
+      "strings": false
+    }
+  },
+
+  "[quarto]": {
+    "editor.wordWrap": "on"
+  },
+
+  "r.bracketedPaste": true,
+
+  "search.exclude": {
+    "**/.quarto": true,
+    "**/_site": true
+  }
+}
