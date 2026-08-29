@@ -20,6 +20,16 @@
 
   "r.bracketedPaste": true,
 
+  // 2026-08-29: install-r.qmd tells students to install httpgd and promises plots
+  // render in a VS Code panel, but the httpgd viewer is OFF by default -- it needs
+  // r.plot.useHttpgd, which was missing, so the promise would have failed in week 11
+  // for the whole class at once. sessionWatcher is what populates the Workspace
+  // panel (the RStudio environment-pane equivalent, also promised in that guide) and
+  // what the plot viewer attaches to; it defaults true in current versions, but it is
+  // stated here so a version change cannot silently break both panels.
+  "r.sessionWatcher": true,
+  "r.plot.useHttpgd": true,
+
   "search.exclude": {
     "**/.quarto": true,
     "**/_site": true

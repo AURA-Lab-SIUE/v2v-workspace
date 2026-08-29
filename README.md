@@ -33,7 +33,7 @@ Step-by-step walkthrough with screenshots:
 
 ```
 00_Inbox/           Quick capture. Anything not yet filed.
-01_Journal/         Weekly reading reflections. These get committed and read.
+01_Journal/         Weekly reading reflections. Committed here, submitted in Blackboard.
 02_Literature/      Reading notes and Zotero annotations.
 03_Project/         Your research project, in the order you build it:
   01_Prospectus/      Research design (Chapter 6)
@@ -60,8 +60,12 @@ the finished White Paper.
 ## Why commit your work
 
 Committing gives you three things: a backup that is not on your laptop, a full history
-you can walk backward through, and a way for Dr. Leith to read your journal entries
-without a separate submission step.
+you can walk backward through, and a record of your work that stays yours after the
+course ends.
+
+**Committing is not submitting.** Graded work is turned in through Blackboard, under the
+assignment for that week. Commit your work as well, always -- but an entry that was
+committed and never submitted has not been turned in.
 
 It also builds the version-control habit you use again for the final portfolio, which is
 published from a repository like this one.

@@ -1,7 +1,17 @@
 # Week NN Journal: <topic>
 
 > Copy this file into `01_Journal/`, rename it for the week (for example
-> `week-02-curiosity-and-trust.md`), and write 250 to 300 words.
+> `week-02-curiosity-and-trust.md`), and write your entry.
+>
+> **Length.** MC 451: 250 to 300 words on the assigned chapter. MC 501: 450 to 500
+> words engaging both the chapter and that week's assigned reading.
+>
+> **Turning it in takes two steps.** Commit and push this file, AND submit it in
+> Blackboard under that week's assignment. Grading happens from the Blackboard
+> submission. Due Friday 11:59 PM in MC 451, Monday 11:59 PM in MC 501.
+>
+> If AI shaped your work this week, note what you used it for and how you checked it.
+>
 > Delete this block before you commit.
 
 **Reading:** <chapter or article>
