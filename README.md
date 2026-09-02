@@ -13,7 +13,8 @@ ends.
 ## Set it up
 
 **1. Make your copy.** Click **Use this template**, then **Create a new repository**.
-Name it something like `mc451-workspace`. Private is fine.
+Name it `mc451-workspace` or `mc501-workspace`, and leave it **Public**. Your graded
+submission is the repository URL, so it has to be one anyone can open.
 
 **2. Clone it into VS Code.** Open the Command Palette (`Ctrl/Cmd+Shift+P`), run
 **Git: Clone**, paste your repository URL, and pick a location you will remember, for
