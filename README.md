@@ -28,7 +28,7 @@ class works in the same environment.
 `01_Journal/`, rename it for the week, and write.
 
 Step-by-step walkthrough with screenshots:
-<https://aura-lab-siue.github.io/v2v-hub/resources/workspace-setup.html>
+<https://aura-lab.siue.edu/v2v-hub/resources/workspace-setup.html>
 
 ## What is in here
 
@@ -85,8 +85,8 @@ Commit early and often. A commit is cheap. Losing a week of work is not.
 
 ## Course links
 
-- Course site: <https://aura-lab-siue.github.io/v2v-hub/>
-- Textbook, *From Vibes to Variables*: <https://aura-lab-siue.github.io/v2v/>
+- Course site: <https://aura-lab.siue.edu/v2v-hub/>
+- Textbook, *From Vibes to Variables*: <https://aura-lab.siue.edu/v2v/>
 - `v2v` R package, the Twitch practice corpus: <https://github.com/AURA-Lab-SIUE/v2v-r>
 
 ---
