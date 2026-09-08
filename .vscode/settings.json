@@ -18,7 +18,15 @@
     "editor.wordWrap": "on"
   },
 
-  "r.bracketedPaste": true,
+  // 2026-09-08: MUST stay false. The R extension documents this setting as
+  // "Enable for radian console" and ships it false by default. This course does not
+  // install radian anywhere, so students run plain R, which does not consume the
+  // bracketed-paste escape sequences. They land in the console as literal text around
+  // every chunk (the stray [200~ and [201~ students report), and the broken first line
+  // leaves R at a + continuation prompt, so the NEXT Run Cell gets appended to the
+  // unfinished expression and two chunks appear to run as one. Reported across both
+  // courses. Do not set this true unless radian is actually part of the toolchain.
+  "r.bracketedPaste": false,
 
   // 2026-08-29: install-r.qmd tells students to install httpgd and promises plots
   // render in a VS Code panel, but the httpgd viewer is OFF by default -- it needs
