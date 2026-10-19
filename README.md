@@ -18,7 +18,7 @@ ends.
 - [Course hub](https://aura-lab.siue.edu/v2v-hub/) ([source](https://github.com/AURA-Lab-SIUE/v2v-hub)): the course website for MC 451 and MC 501 that sequences the textbook, the labs, and the setup guides.
 - [v2v R package](https://github.com/AURA-Lab-SIUE/v2v-r): the companion package with the Twitch practice corpus and the helpers the textbook introduces chapter by chapter.
 - [Course workspace](https://github.com/AURA-Lab-SIUE/v2v-workspace) (this repository): the VS Code template students copy for journals, reading notes, and project work.
-- [R Companion](https://github.com/AURA-Lab-SIUE/r-companion): the VS Code extension that checks each student's R setup, installs what is missing, and explains common R errors.
+- [R Companion](https://github.com/AURA-Lab-SIUE/r-companion): the VS Code extension that checks each student's R setup, installs what is missing, explains common R errors, and writes the course's R code from menus.
 
 A sibling template, [mc427-codespace](https://github.com/AURA-Lab-SIUE/mc427-codespace), gives MC 427 Social Media Analytics the same VS Code and R toolchain in a GitHub Codespace; the R Companion serves MC 427 as well, and the v2v package is not used there.
 
@@ -73,7 +73,7 @@ the finished White Paper.
 | **Quarto** | Renders the `.qmd` files you write from Chapter 10 onward |
 | **R** | Runs R inside VS Code, so the workbook labs work in this same window |
 | **GitLens** | Makes your own commit history legible, which matters when you need to find what you changed three weeks ago |
-| **AURA Lab R Companion** | **Check my setup** for your course, and **Explain an R error** when a line breaks; later releases add menus that write commented R code into your script |
+| **AURA Lab R Companion** | **Check my setup** for your course, **Explain an R error** when a line breaks, **Write R code** menus that put commented tidyverse code in your script, and a data viewer and coding sheet for your pilot coding |
 
 ## Why commit your work
 

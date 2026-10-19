@@ -2,11 +2,11 @@
 FROM ghcr.io/rocker-org/devcontainer/r-ver:4.6@sha256:1660ee0beba698f16c84b9bdeba7014c09c9e9588ee307174f6b9f53a6276c4f
 
 # Course packages from the 2026-10-08 snapshot of CRAN, so every codespace gets the same versions.
-# The list is the hub's Install R page (Steps 3 and 4) plus remotes, pwr, and renv for MC 501.
+# The list is the hub's Install R page (Steps 3 and 4) plus remotes, and pwr, lm.beta, and renv for MC 501.
 # processx, later, jsonlite, and rstudioapi let the R extension's helper install without a download.
 RUN install2.r --error --skipinstalled --ncpus -1 \
       --repos https://p3m.dev/cran/__linux__/noble/2026-10-08 \
-      tidyverse janitor likert rmarkdown languageserver httpgd remotes quarto effectsize pwr renv \
+      tidyverse janitor likert rmarkdown languageserver httpgd remotes quarto effectsize pwr lm.beta renv \
       processx later jsonlite rstudioapi
 
 # The course package from GitHub, pinned to the v0.3.3 tag, with upgrades off as the hub page says.
