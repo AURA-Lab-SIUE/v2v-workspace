@@ -35,8 +35,8 @@ example `Documents/MC451/`. VS Code offers to open the folder. Say yes.
 **3. Install the recommended extensions.** VS Code prompts you the first time you open
 the folder. Click **Install**. They are pinned in `.vscode/extensions.json` so the whole
 class works in the same environment. Then run **Check my setup** from the Command
-Palette (`Ctrl/Cmd+Shift+P`): it finds R, checks the course packages, and installs any
-that are missing.
+Palette (`Ctrl/Cmd+Shift+P`): it finds R and checks the course packages, and its
+**Install what is missing** action installs any that are not.
 
 **4. Start your first journal entry.** Copy `_templates/journal-entry.md` into
 `01_Journal/`, rename it for the week, and write.
