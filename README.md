@@ -34,7 +34,9 @@ example `Documents/MC451/`. VS Code offers to open the folder. Say yes.
 
 **3. Install the recommended extensions.** VS Code prompts you the first time you open
 the folder. Click **Install**. They are pinned in `.vscode/extensions.json` so the whole
-class works in the same environment.
+class works in the same environment. Then run **Check my setup** from the Command
+Palette (`Ctrl/Cmd+Shift+P`): it finds R, checks the course packages, and installs any
+that are missing.
 
 **4. Start your first journal entry.** Copy `_templates/journal-entry.md` into
 `01_Journal/`, rename it for the week, and write.
@@ -56,6 +58,8 @@ Step-by-step walkthrough with screenshots:
 04_Resources/       PDFs, images, attachments.
 _templates/         Reusable starting points for journals and codebooks.
 .vscode/            Shared extensions and settings.
+.devcontainer/      The Codespace route: R and the course package preinstalled on GitHub.
+.github/            Copilot's instructions for this course. Leave it in place.
 ```
 
 `03_Project/` is ordered the way the term is ordered. You will fill it roughly in
@@ -69,6 +73,7 @@ the finished White Paper.
 | **Quarto** | Renders the `.qmd` files you write from Chapter 10 onward |
 | **R** | Runs R inside VS Code, so the workbook labs work in this same window |
 | **GitLens** | Makes your own commit history legible, which matters when you need to find what you changed three weeks ago |
+| **AURA Lab R Companion** | **Check my setup** for your course, and **Explain an R error** when a line breaks; later releases add menus that write commented R code into your script |
 
 ## Why commit your work
 

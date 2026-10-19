@@ -10,7 +10,8 @@
 > Blackboard under that week's assignment. Grading happens from the Blackboard
 > submission. Due Friday 11:59 PM in MC 451, Monday 11:59 PM in MC 501.
 >
-> If AI shaped your work this week, note what you used it for and how you checked it.
+> If AI shaped your work this week, record what you used it for and how you checked it
+> in your AI-use log. The AURA Lab R Companion is not AI and needs no entry; Copilot is.
 >
 > Delete this block before you commit.
 

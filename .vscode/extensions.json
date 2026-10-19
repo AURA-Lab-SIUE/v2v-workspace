@@ -2,6 +2,7 @@
   "recommendations": [
     "quarto.quarto",
     "reditorsupport.r",
-    "eamodio.gitlens"
+    "eamodio.gitlens",
+    "aura-lab-siue.r-companion"
   ]
 }

@@ -36,5 +36,8 @@ Two steps, and you need both.
 
 ## One more thing
 
-If AI shaped any work you submit that week, note in the entry what you used it for and
-how you checked its output. This is required by the syllabus in both courses.
+If AI shaped any work you submit that week, record it in your AI-use log, the record
+the syllabus requires in both courses: what you used it for and how you checked its
+output. The AURA Lab R Companion is not an AI tool, so its setup check, its error
+explanations, and the code its menus write need no log entry. Copilot is AI and is
+logged, including any answer Copilot gives using the Companion's tools.
