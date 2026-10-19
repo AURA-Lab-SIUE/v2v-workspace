@@ -5,8 +5,8 @@
 >
 > This template follows the five-part structure in **Chapter 8** of *From Vibes to
 > Variables*. Your codebook is the instrument, not paperwork you write afterward. Think
-> of it as source code: two coders running it on the same input should produce the same
-> output.
+> of it as source code: run it twice on the same input, weeks apart, and it should
+> produce the same output.
 
 **Author:** <name>
 **Version:** draft 1
@@ -103,30 +103,33 @@ thin after piloting is not.
 
 ## Reliability protocol
 
-Your codebook is not finished until a second coder has applied it and the agreement has
-been measured. The four steps, from Chapter 8:
+You are the only coder in this course, so the check is a **stability** check: how well
+you agree with yourself. The codebook is not finished until that figure has been measured.
+The four steps:
 
-1. The second coder receives the codebook with **no walk-through and no hints**, and
-   codes a training set of 20 to 30 units independently.
-2. The two coders compare and discuss **every** disagreement. No production data is
-   coded at this stage.
-3. The codebook is revised, adding a decision rule for each disagreement found.
-4. The second coder codes a **fresh** reliability sample, separate from the training
-   set. The agreement on that fresh sample is the kappa you report.
+1. Code the pilot items once, in pass 1, and record the date.
+2. After at least 48 hours, code the same items again in pass 2 **with your pass 1 codes
+   hidden**, and record that date too. The gap and the hiding are what make the second
+   pass independent.
+3. Compare every disagreement and add a decision rule for each one found.
+4. Report the agreement between the two passes as your stability figure, and name the
+   single-coder limitation as such: a second coder is not part of this course.
 
-**Threshold.** Cohen's kappa of 0.70 or above (Landis & Koch, 1977). Below it, revise
-and repeat. The reliability sample needs at least 50 coded units, and 100 or more if any
-code has a low base rate.
+**Threshold.** Cohen's kappa of 0.70 or above (Landis & Koch, 1977). Below it, revise the
+codebook and repeat the two passes on a fresh subset.
 
-`v2v::reliability()` computes kappa with interpretation labels.
+`v2v::reliability()` computes kappa or alpha from your two columns of codes. The R
+Companion's **Reliability grid** takes pass 1 and pass 2, hides pass 1 while you enter
+pass 2, records both dates, saves the codes as a CSV, and writes the `v2v::reliability()`
+call (kappa or alpha) into your script.
 
 Lombard et al. (2002) recommend reporting more than one reliability statistic. Decide
 which you would report alongside kappa, and why.
 
-| Round | Date | Units | Statistic | Value | Cleared 0.70? | What was revised |
-| --- | --- | --- | --- | --- | --- | --- |
-| training | | | | | | |
-| reliability | | | | | | |
+| Round | Pass 1 date | Pass 2 date | Units | Statistic | Value | Cleared 0.70? | What was revised |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| pilot | | | | | | | |
+| re-code | | | | | | | |
 
 ---
 

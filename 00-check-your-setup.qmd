@@ -18,7 +18,8 @@ That is the whole assignment.
 Nothing in this file can break your computer, delete anything, or cost money.
 
 **Using the AURA Lab R Companion?** Run **Check my setup** from the Command Palette
-(`Ctrl/Cmd+Shift+P`). It does Steps 2 to 5 for you. This file still works without it.
+(Ctrl+Shift+P, or Cmd+Shift+P on a Mac). It does Steps 2 to 5 for you. This file still works
+without it.
 
 ## How to run a code chunk
 
@@ -29,7 +30,7 @@ If you do not see one, click anywhere inside the gray box and press **Ctrl+Enter
 (Windows) or **Cmd+Enter** (Mac). That sends the line your cursor is on to R.
 
 The first time you do this, VS Code may take twenty or thirty seconds to wake R up, and a
-new panel will open at the bottom of the screen. That panel is **the R console**. It is
+new panel will open at the bottom of the screen. That panel is **the R console**: it is
 where R answers you. Slowness the first time is normal and is not a sign that anything is
 wrong.
 
@@ -90,8 +91,8 @@ remotes::install_github("AURA-Lab-SIUE/v2v-r", upgrade = "never")
 called `v2v-r`, and the thing we *use* is called `v2v`. Two names, same course package.
 That is normal for R and it is not a typo.
 
-If R asks **"Which would you like to update?"** and offers a numbered list, type **3** (None) and
-press Enter. If it asks about installing from source, answer **no**.
+If R asks **"Which would you like to update?"** and offers a numbered list, type **3** for
+**None** and press Enter. If it asks about installing from source, answer **no**.
 
 ## Step 4: Switch the package on
 
@@ -120,7 +121,7 @@ setup()
 
 **Two red marks are expected and fine at this stage** if you have not done the later
 setup steps yet: Quarto CLI and Git. Everything under **Required R packages** should be
-green. If a required package is red, `setup()` prints the exact command to fix it. Copy
+green. If a required package is red, `setup()` prints the exact command to fix it: copy
 that command, paste it into the console, press Enter, then run `setup()` again.
 
 ## Step 6: Prove it can actually get data
@@ -153,13 +154,12 @@ Do this, in order:
 1. Close VS Code completely and reopen it. This fixes a surprising share of problems.
 2. Run the chunk again. Some failures are a slow network, not a real fault.
 3. Email me the **exact** text of the error, or a screenshot, plus which step number you
-   were on. Do not paraphrase the error. The wording is the diagnosis.
+   were on. Do not paraphrase the error; the wording is the diagnosis.
 4. Come to office hours: Tuesday and Thursday, 12:30 to 1:45 in person in Dunham Hall 1017,
    drop in, no appointment; or remote Tu/W/Th 3:00 to 5:00 by appointment.
-5. If nothing installs before class, open your workspace as a Codespace and keep working
-   there: on github.com, open your own workspace repository, select **Code**, then
-   **Codespaces**, then **Create codespace on main**. R and the course package are
-   already installed in it.
+5. If nothing installs before class, open your own workspace copy as a Codespace: on github.com,
+   open your repository, click **Code**, then **Codespaces**, then **Create codespace on main**.
+   R, the course package, and the R Companion are already installed there; keep working there.
 
 What I do not want is for you to spend two hours fighting this alone. Fifteen minutes,
 then ask.
