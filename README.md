@@ -10,6 +10,18 @@ Everything here is plain Markdown and plain files. No wiki plugins, no graph vie
 second app to learn. Your work is readable anywhere and it stays yours after the course
 ends.
 
+## Part of From Vibes to Variables
+
+[From Vibes to Variables (V2V)](https://aura-lab.siue.edu/v2v/) is the AURA Lab's open methods package for teaching media research at Southern Illinois University Edwardsville. Its parts are built to be used together:
+
+- [Textbook](https://aura-lab.siue.edu/v2v/) ([source](https://github.com/AURA-Lab-SIUE/v2v)): the open textbook that carries the arc from research question to published report.
+- [Course hub](https://aura-lab.siue.edu/v2v-hub/) ([source](https://github.com/AURA-Lab-SIUE/v2v-hub)): the course website for MC 451 and MC 501 that sequences the textbook, the labs, and the setup guides.
+- [v2v R package](https://github.com/AURA-Lab-SIUE/v2v-r): the companion package with the Twitch practice corpus and the helpers the textbook introduces chapter by chapter.
+- [Course workspace](https://github.com/AURA-Lab-SIUE/v2v-workspace) (this repository): the VS Code template students copy for journals, reading notes, and project work.
+- [R Companion](https://github.com/AURA-Lab-SIUE/r-companion): the VS Code extension that checks each student's R setup, installs what is missing, and explains common R errors.
+
+A sibling template, [mc427-codespace](https://github.com/AURA-Lab-SIUE/mc427-codespace), gives MC 427 Social Media Analytics the same VS Code and R toolchain in a GitHub Codespace; the R Companion serves MC 427 as well, and the v2v package is not used there.
+
 ## Set it up
 
 **1. Make your copy.** Click **Use this template**, then **Create a new repository**.
@@ -88,6 +100,10 @@ Commit early and often. A commit is cheap. Losing a week of work is not.
 - Course site: <https://aura-lab.siue.edu/v2v-hub/>
 - Textbook, *From Vibes to Variables*: <https://aura-lab.siue.edu/v2v/>
 - `v2v` R package, the Twitch practice corpus: <https://github.com/AURA-Lab-SIUE/v2v-r>
+
+## License
+
+The template itself (the folder structure, the files in `_templates/`, and this README) is CC BY 4.0. The license covers the template, not the work you create in your own copy; your journals, notes, and project files are yours.
 
 ---
 
