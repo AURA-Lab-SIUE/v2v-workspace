@@ -9,7 +9,8 @@ A workable layout:
 
 ```
 raw/          the sample exactly as drawn, never modified
-coded/        your coding output
+coded/        your coding output (a spreadsheet export, or the codes file the R Companion's
+              data viewer keeps under data/derived/ at the top of the workspace)
 analysis/     the .qmd or .R that turns coded data into results
 ```
 

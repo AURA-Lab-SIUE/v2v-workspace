@@ -121,7 +121,11 @@ codebook and repeat the two passes on a fresh subset.
 `v2v::reliability()` computes kappa or alpha from your two columns of codes. The R
 Companion's **Reliability grid** takes pass 1 and pass 2, hides pass 1 while you enter
 pass 2, records both dates, saves the codes as a CSV, and writes the `v2v::reliability()`
-call (kappa or alpha) into your script.
+call (kappa or alpha) into your script. To enter the codes themselves in VS Code instead of a
+spreadsheet, **AURA: Open the data viewer** opens your sampled CSV in a grid where you add a coding
+column per variable and code each row; the codes save to `data/derived/` at the top of the workspace,
+the original file is never changed, and **Insert rebuild code** writes the lines that join them back on.
+A spreadsheet still works.
 
 Lombard et al. (2002) recommend reporting more than one reliability statistic. Decide
 which you would report alongside kappa, and why.
