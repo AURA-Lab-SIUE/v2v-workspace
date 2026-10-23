@@ -125,7 +125,9 @@ call (kappa or alpha) into your script. To enter the codes themselves in VS Code
 spreadsheet, **AURA: Open the data viewer** opens your sampled CSV in a grid where you add a coding
 column per variable and code each row; the codes save to `data/derived/` at the top of the workspace,
 the original file is never changed, and **Insert rebuild code** writes the lines that join them back on.
-A spreadsheet still works.
+A spreadsheet still works: **Import a data file (CSV or Excel)** reads the sheet you coded. If your study
+keeps more than one table (videos and channels, messages and streams), **Join two tables by a shared
+column** writes the `left_join()` that links them, with a check for rows that found no match.
 
 Lombard et al. (2002) recommend reporting more than one reliability statistic. Decide
 which you would report alongside kappa, and why.
