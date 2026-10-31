@@ -9,7 +9,6 @@
       "extensions": [
         "REditorSupport.r@3.0.1",
         "quarto.quarto",
-        "eamodio.gitlens",
         "aura-lab-siue.r-companion"
       ],
       "settings": {

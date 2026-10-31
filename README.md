@@ -72,7 +72,6 @@ the finished White Paper.
 | --- | --- |
 | **Quarto** | Renders the `.qmd` files you write from Chapter 10 onward |
 | **R** | Runs R inside VS Code, so the workbook labs work in this same window |
-| **GitLens** | Makes your own commit history legible, which matters when you need to find what you changed three weeks ago |
 | **AURA Lab R Companion** | **Check my setup** for your course, **Explain an R error** when a line breaks, **Write R code** menus that put commented tidyverse code in your script, and a data viewer and coding sheet for your pilot coding |
 
 ## Why commit your work
