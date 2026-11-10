@@ -6,7 +6,7 @@ Your research project, ordered the way the term is ordered.
 | --- | --- | --- |
 | `01_Prospectus/` | Research question, design, justification | 6 |
 | `02_Codebook/` | The coding instrument | 8 |
-| `03_Data/` | Sampled data, coding, analysis | 10 to 12 |
+| `03_Data/` | Notes on your data: where it came from, how you sampled it (the files go in `data/` at the top) | 10 to 12 |
 | `04_Drafts/` | Drafts and the final White Paper | 13 to 14 |
 
 You fill these roughly in sequence. By the end this folder holds the whole trail from
