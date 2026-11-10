@@ -53,9 +53,10 @@ Step-by-step walkthrough with screenshots:
 03_Project/         Your research project, in the order you build it:
   01_Prospectus/      Research design (Chapter 6)
   02_Codebook/        Data dictionary (Chapter 8)
-  03_Data/            Sampled data and analysis (Chapters 10 to 12)
+  03_Data/            Notes on your data: sources, sampling, terms (Chapters 10 to 12)
   04_Drafts/          Drafts and the final White Paper (Chapters 13 to 14)
 04_Resources/       PDFs, images, attachments.
+data/               Your data files: samples, coding sheets, what R saves.
 _templates/         Reusable starting points for journals and codebooks.
 .vscode/            Shared extensions and settings.
 .devcontainer/      The Codespace route: R and the course package preinstalled on GitHub.
@@ -94,8 +95,8 @@ Commit early and often. A commit is cheap. Losing a week of work is not.
 - **Plain Markdown only.** No `[[wiki-links]]`. To point at another file, use a normal
   relative Markdown link: `[the codebook](../03_Project/02_Codebook/codebook.md)`. Those
   work on GitHub, in VS Code, and in anything you export to later.
-- **Do not commit raw data you are not licensed to redistribute.** `03_Project/03_Data/`
-  is for your sampled working data. If a dataset came with terms, respect them.
+- **Do not commit raw data you are not licensed to redistribute.** `data/` is for your
+  sampled working data. If a dataset came with terms, respect them.
 - **Nothing personally identifying about the people in your data.** This is a research
   methods course and the standard applies to your own workspace too.
 
